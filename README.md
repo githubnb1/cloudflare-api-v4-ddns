@@ -23,8 +23,8 @@ sudo nano /usr/local/bin/cf-ddns.sh
 5.CFTTL 是域名生效的 ttl，默认 120 即可
 
 设置定时任务
-#编辑定时任务
 `crontab -e`  
 
-在最后加上`*/2 * * * * /usr/local/bin/cf-ddns.sh >/dev/null 2>&1`  
+在最后一行加上`*/2 * * * * /usr/local/bin/cf-ddns.sh >/dev/null 2>&1`  
+
 如果需要日志就换成这条`*/2 * * * * /usr/local/bin/cf-ddns.sh >> /var/log/cf-ddns.log 2>&1`  
