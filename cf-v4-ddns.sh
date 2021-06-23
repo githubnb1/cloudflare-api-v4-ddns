@@ -31,16 +31,16 @@ set -o nounset
 
 # API key, see https://www.cloudflare.com/a/account/my-account,
 # incorrect api-key results in E_UNAUTH error
-CFKEY=e7fbe15b6d634eca97a73edbc4227a7df2c36
+CFKEY=
 
 # Username, eg: user@example.com
-CFUSER=940149921@qq.com
+CFUSER=
 
 # Zone name, eg: example.com
-CFZONE_NAME=xiafanii.tk
+CFZONE_NAME=
 
 # Hostname to update, eg: homeserver.example.com or example.com
-CFRECORD_NAME=www.xiafanii.tk
+CFRECORD_NAME=
 
 # Record type, A(IPv4)|AAAA(IPv6), default IPv4
 CFRECORD_TYPE=A
