@@ -8,7 +8,7 @@ set -o nounset
 # Sparkle version
 
 # Place at:
-# sudo wget https://raw.githubusercontent.com/zanjie1999/cloudflare-api-v4-ddns/master/cf-v4-ddns.sh -O /usr/local/bin/cf-ddns.sh
+# sudo wget https://raw.githubusercontent.com/githubnb1/cloudflare-api-v4-ddns/master/cf-v4-ddns.sh -O /usr/local/bin/cf-ddns.sh
 # sudo chmod +x /usr/local/bin/cf-ddns.sh
 # sudo nano /usr/local/bin/cf-ddns.sh
 # run `crontab -e` and add next line:
