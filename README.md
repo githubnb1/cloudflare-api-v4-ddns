@@ -3,6 +3,13 @@
 在 Cloudflare 中新建一个 A 记录，如：ddns.xxxxx.com，指向 1.1.1.1（可随意指定，如 123.123.123.123 等等，主要用于后续查看 DDNS 是否生效）
 
 下载 DDNS 脚本，修改配置  
+
+安装 net-tools  
+  
+```
+apt-get install net-tools 
+```
+
 ```
 sudo wget https://raw.githubusercontent.com/githubnb1/cloudflare-api-v4-ddns/master/cf-v4-ddns.sh -O /usr/local/bin/cf-ddns.sh
 
